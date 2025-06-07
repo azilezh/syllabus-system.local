@@ -1,0 +1,65 @@
+body {
+    background-color: #f0f8ff;
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar {
+    background-color: #005B99;
+}
+.navbar-brand, .nav-link {
+    color: #ffffff !important;
+}
+.nav-link:hover {
+    color: #4FC3F7 !important;
+}
+.container {
+    margin-top: 2rem;
+}
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+}
+.btn-primary {
+    background-color: #005B99;
+    border-color: #005B99;
+}
+.btn-primary:hover {
+    background-color: #4FC3F7;
+    border-color: #4FC3F7;
+}
+.btn-warning {
+    background-color: #4FC3F7;
+    border-color: #4FC3F7;
+}
+.btn-warning:hover {
+    background-color: #005B99;
+    border-color: #005B99;
+}
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #c82333;
+}
+table {
+    background-color: #ffffff;
+}
+.modal-header {
+    background-color: #005B99;
+    color: #ffffff;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+.error-message {
+    color: #dc3545;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+    display: none;
+}
+.is-invalid {
+    border-color: #dc3545 !important;
+}
